@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  --bg: oklch(0.96 0 27);
+  --text: oklch(0.1 0 27);
+  --text-muted: oklch(0.2 0 27);
+  --accent: oklch(0.66 0.18 27);
+}
+
+body {
+  height: 100dvh;
+  width: min(96%, 720px);
+  margin-inline: auto;
+  background: var(--bg);
+  color: var(--text-muted);
+  font-family: 'Instrument Sans', Sans-Serif;
+}
+
+header, section, footer {
+  margin: .5rem 0; 
+  padding: 0 .5rem;
+}
+
+h1, h2 {
+  font-family: 'Instrument Serif', Serif;
+}
+
+h1 a, h2 a {
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+img {
+  width: min(100%, 480px);
+  border-radius: .5rem;
+  margin: 1rem 0;
+}
+
+ul {
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
