@@ -37,7 +37,6 @@ a {
 img {
   width: min(100%, 480px);
   border-radius: .5rem;
-  margin: 1rem 0;
 }
 
 ul {
