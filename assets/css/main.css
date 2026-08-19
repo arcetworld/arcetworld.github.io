@@ -21,6 +21,10 @@ header, section, footer {
   padding: 0 .5rem;
 }
 
+nav {
+  padding: .5rem;
+}
+
 h1, h2 {
   font-family: 'Instrument Serif', Serif;
 }
