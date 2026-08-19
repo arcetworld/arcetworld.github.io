@@ -22,7 +22,9 @@ header, section, footer {
 }
 
 nav {
-  padding: .5rem;
+  padding: .5rem 0;
+  display: flex;
+  gap: .5rem
 }
 
 h1, h2 {
