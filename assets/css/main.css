@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap');
 
 :root {
+  color-scheme: light dark;
+  
   --bg: oklch(0.96 0 27);
   --text: oklch(0.1 0 27);
   --text-muted: oklch(0.2 0 27);
   --accent: oklch(0.66 0.18 27);
 }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: oklch(0.2 0 27);
+      --text: oklch(0.96 0 27);
+      --text-muted: oklch(0.76 0 27);
+    }
+  }
 
 body {
   height: 100dvh;
