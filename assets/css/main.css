@@ -39,6 +39,7 @@ nav {
 
 h1, h2 {
   font-family: 'Instrument Serif', Serif;
+  color: var(--text);
 }
 
 h1 a, h2 a {
