@@ -37,7 +37,7 @@ nav {
   gap: .5rem
 }
 
-h1, h2 {
+h2, h1 {
   font-family: 'Instrument Serif', Serif;
   color: var(--text);
 }
