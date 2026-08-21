@@ -37,7 +37,7 @@ nav {
   gap: .5rem
 }
 
-h1 ,h2, h3 {
+h1, h2, h3 {
   font-family: 'Instrument Serif', Serif;
   color: var(--text);
 }
@@ -59,8 +59,7 @@ img {
 ul {
   padding: 0 1rem;
   display: grid;
+  gap: .5rem;
+  column-gap: 1.5rem;
   grid-template-columns: 1fr 1fr;
-}
-li {
-  margin: .25rem 0;
 }
