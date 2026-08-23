@@ -37,7 +37,15 @@ nav {
   gap: .5rem
 }
 
-h1, h2, h3 {
+ruby {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-block-start: 0.67rem;
+  margin-block-end: 0.67rem;
+}
+
+h1, h2, h3, ruby {
   font-family: 'Instrument Serif', Serif;
   color: var(--text);
 }
