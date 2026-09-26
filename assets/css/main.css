@@ -41,6 +41,7 @@ ruby {
   display: block;
   font-size: 2rem;
   font-weight: bold;
+  padding-top: 1.25rem;
   margin-block-start: 0.67rem;
   margin-block-end: 0.67rem;
 }
